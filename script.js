@@ -1,11 +1,4 @@
 setInterval(showTime, 1000);
-setInterval(soundPlayer, 1000);
-
-var audio = new Audio("assets/pickupCoin.wav");
-
-function soundPlayer(sound){
-    audio.play();
-}
 
 function showTime(){
     let time = new Date();
@@ -39,4 +32,3 @@ function showTime(){
 }
 
 showTime();
-soundPlayer();
