@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,  #f9ce34, #ee2a7b, #6228d7);
+}
+
+.dial{
+    background: rgb(0,42,255);
+    background: radial-gradient(circle, rgba(0,42,255,1) 0%, rgba(255,0,52,1) 100%); 
+    font-size: 35px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    color: white;
+    border-radius: 30px;
+}
